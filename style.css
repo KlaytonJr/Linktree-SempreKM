@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+
+li {
+    list-style: none;
+}
+
+body {
+    background: radial-gradient(ellipse at bottom, #1b2735bd 0%, #090a0f 100%);
+    font-family: "Nunito", sans-serif;
+  
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+    height: calc(100vh);
+
+    margin: 20px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: #fff;
+}
+
+.container img {
+    box-shadow: 3px 3px 3px #4a4a4a;
+    z-index: 2;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.info-container {
+    background: #fff;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50px 50px 0 0;
+    position: relative;
+    margin-top: 40px;
+}
+
+.social-media {
+    position: relative;
+
+    width: 310px;
+    height: 60px;
+
+    margin: 0 auto;
+    bottom: 30px;
+
+    display: flex;
+}
+
+.social-coin {
+    position: relative;
+    margin: 0 auto;
+
+    width: 60px;
+    height: 60px;
+
+    background: rgba(224, 224, 224, 0.60);
+    border-radius: 100%;
+    margin-right: 20px;
+
+    z-index: 2;
+}
+
+.social-coin svg {
+    position: relative;
+
+    width: 30px;
+    height: 30px;
+
+    top: 15px;
+    left: 15px;
+
+    stroke: #423BEF;
+}
+
+.social-coin svg:hover, .social-coin svg:active {
+    stroke: #090a0f;
+}
+
+.video-container {
+    position: relative;
+    text-align: center;
+    color:#090a0f;
+}
+
+.video-container p {
+    font-size: 18px;
+}
+
+.video-container iframe {
+    width: 480px;
+    height: 277px;
+    background: rgba(224, 224, 224, 0.29);
+    margin-bottom: 40px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    width: 450px;
+    height: 60px;
+    border-radius: 40px;
+    border: none;
+    background: #090a0f;
+    box-shadow: 5px 5px 5px #d2d2d2;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.whatsapp {
+    background: #34af23;
+}
+
+.btn:hover, .btn:active {
+    background: #355780;
+    border: 3px solid #b0b0b0;
+}
+
+.whatsapp:hover, .whatsapp:active {
+    background: #34af23;
+    border: 5px solid #00bcf2;
+}
+
+.btn-container a{
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 375px;
+    }
+
+    .video-container iframe {
+        width: 350px;
+        height: 190px;
+    }
+
+    .btn {
+        max-width: 325px;
+        max-height: 60px;
+    }
+
+    .btn-container a{
+        font-size: 14px;
+    }
+}
+
+/* 
+
+*/
